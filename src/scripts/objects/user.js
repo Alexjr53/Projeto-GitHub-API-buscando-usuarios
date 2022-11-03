@@ -25,5 +25,4 @@ const user = {
         this.events = events 
     }
 }
-
 export { user }
