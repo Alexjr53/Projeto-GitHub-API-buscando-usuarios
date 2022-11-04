@@ -33,11 +33,14 @@ const screen = {
 
         let eventsItens = ''
         user.events.forEach(events => {
-            if (events.payload.commits !== undefined) {
+            if (events.type === "PushEvent") {
                 eventsItens += `<li><span>${events.repo.name}</span> - ${events.payload.commits[0].message}</li>`    
+            } else if (events.type === "CreateEvent") {
+                eventsItens += `<li><span>${events.repo.name}</span> - ${events.payload.description ?? 'Sem descrição'}</li>`
             } else {
                 return
             }
+            
             })
         if (user.events.length > 0){
             this.userProfile.innerHTML += `<div class= "events">
