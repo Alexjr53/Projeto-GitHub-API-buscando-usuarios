@@ -25,8 +25,8 @@ main {
 }
   
 .container {
-  width: 60%; /* se for uma tela menor que 980px vai se adaptar a 70% */
-  max-width: 960px; /* quando chegar em 980px para de aumentar */
+  width: 60%;
+  max-width: 960px; 
   box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -12px;
   background-color: #fff;
   display: flex;
@@ -112,8 +112,6 @@ main {
   margin-bottom: 5px;
 }
   
-  /* REPOSITORIES */
-  
 .container .profile-data .repositories h2{
   margin-bottom: 30px;
   text-align: center;
@@ -150,8 +148,6 @@ main {
   display: none;
 }
 
-  /* events */
-
 .container .profile-data .events{
   background-color: lightgray;
   padding: 35px;
@@ -168,6 +164,3 @@ main {
 .container .profile-data .events ul li span{
   font-weight: 700;
 }
-
-
-
