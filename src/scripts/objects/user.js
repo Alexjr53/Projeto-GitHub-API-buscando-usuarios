@@ -3,8 +3,8 @@ const user = {
     name: '',
     bio: '',
     userName: '',
-    following: '',
-    followers: '',
+    following: 0,
+    followers: 0,
     repositories: [],
     events: [],
     
