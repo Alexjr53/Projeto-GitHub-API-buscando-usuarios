@@ -59,6 +59,3 @@ Projeto que consome uma API do GitHub para buscar e exibir na tela as informaç�
 Alexsandro rosa junior
 
 - GitHub - [Alexjr53](https://github.com/Alexjr53)
-
-## Agradecimentos
-Agradecimentos a equipe [Dev em Dobro](https://www.instagram.com/devemdobro/) que está me passando o conhecimento e conceitos necessários para poder realizar esses desafios.
