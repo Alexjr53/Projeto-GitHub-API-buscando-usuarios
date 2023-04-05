@@ -11,7 +11,6 @@ Projeto que consome uma API do GitHub para buscar e exibir na tela as informa√ß√
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [Meu processo](#meu-processo)
-  - [Como usar](#como-usar)
   - [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [Autor](#autor)
 
@@ -48,7 +47,6 @@ Projeto que consome uma API do GitHub para buscar e exibir na tela as informa√ß√
 - URL da p√°gina: [GitHub API](https://alexjr53.github.io/Projeto-mundo-real-com-fetch-e-GitHub./) 
 
 ## Meu processo
-
 
 ### Tecnologias utilizadas
 
