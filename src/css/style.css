@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;700&display=swap");
 
 body {
-    background-color:#24292e;
+    background-color:var(--bg-color);
     font-family: "Kumbh Sans", sans-serif;  
     text-align: center;    
     padding-bottom: 100px;
@@ -17,7 +17,7 @@ main {
 .devicon-github-original{
   font-size: 60px;
   margin-bottom: 30px;
-  color: #FFFFFF;
+  color: var(--color-white);
 }
   
 .section{
@@ -28,7 +28,7 @@ main {
   width: 60%;
   max-width: 960px; 
   box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -12px;
-  background-color: #fff;
+  background-color: var(--color-white);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +56,7 @@ main {
   margin: 0 auto;
   padding: 10px;
   border-radius: 7px;
-  border: 1px solid grey;
+  border: 1px solid var(--primary-color);
 }
   
 .container header #btn-search {
@@ -66,13 +66,14 @@ main {
   padding: 10px;
   border-radius: 7px;  
   cursor: pointer;
-  border: 1px solid grey;
+  border: 1px solid var(--primary-color);
+  transition: 0.3s ease-in-out;
 }
   
 .container header #btn-search:hover {
-  background-color: hotpink;
-  color: #ffffff;
-  border-color: #ffffff;
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  border-color: var(--color-white);
 }
   
 .container .profile-data{
@@ -96,23 +97,29 @@ main {
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
-  border: 10px solid hotpink;
+  border: 10px solid var(--img-profile-color);
 }
   
 .container .profile-data .info h1{
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 20px;
   font-weight: 700;
 }
   
 .container .profile-data .info p{
-  font-size: 15px;  
+  font-size: 17px; 
+  padding: 5px;
   font-weight: 400;
   line-height: 23px;
   margin-bottom: 5px;
 }
+
+.container .profile-data .info p strong{
+  font-weight: 500;
+}
   
 .container .profile-data .repositories h2{
+  font-size: 30px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -125,7 +132,8 @@ main {
   
 .container .profile-data .repositories ul li a{
   padding: 20px;
-  border: 1px solid grey;  
+  font-weight: 500;
+  border: 1px solid var(--primary-color);  
   margin: 20px;
   display: block;
   border-radius: 7px;
@@ -134,14 +142,16 @@ main {
 
 .container .profile-data .repositories ul li a .repositories-stats .stats{
   padding: 5px;
+  font-weight: 500;
   margin: 10px 5px 0 0;
-  background-color: rgb(112, 49, 214);
+  background-color: var(--secondary-color);
+  color: var(--color-white);
   border-radius: 10px;
 }
   
 .container .profile-data .repositories ul li a:hover{
-  background-color:hotpink;
-  color: #fff
+  background-color:var(--primary-color);
+  color: var(--color-white);
 }
   
 .container .profile-data.hide{
@@ -149,16 +159,19 @@ main {
 }
 
 .container .profile-data .events{
-  background-color: lightgray;
+  background-color: rgb(209, 209, 209);
+  border-radius: 20px;
   padding: 35px;
 }
 
 .container .profile-data .events h2{
   margin-bottom: 25px;
+  font-weight: 700;
 }
 
 .container .profile-data .events ul li{
   padding-top: 20px;
+  font-size: 18px;
 }
 
 .container .profile-data .events ul li span{
